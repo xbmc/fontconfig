@@ -1046,6 +1046,9 @@ FcStrContainsIgnoreBlanksAndCase (const FcChar8 *s1, const FcChar8 *s2);
 const FcChar8 *
 FcStrContainsIgnoreCase (const FcChar8 *s1, const FcChar8 *s2);
 
+const FcChar8 *
+FcStrContainsWord (const FcChar8 *s1, const FcChar8 *s2);
+
 FcBool
 FcStrUsesHome (const FcChar8 *s);
 
